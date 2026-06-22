@@ -1,0 +1,101 @@
+# =========================
+# Entornos virtuales Python
+# =========================
+venv/
+.venv/
+env/
+ENV/
+
+# =========================
+# Caché de Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# =========================
+# Archivos de configuración local
+# =========================
+.env
+.env.local
+.env.*.local
+
+# Mantener ejemplo de variables de entorno
+!.env.example
+
+# =========================
+# Logs y evidencia generada
+# =========================
+logs/
+*.log
+
+# Si querés mantener la carpeta logs vacía en Git, usá un .gitkeep
+!logs/.gitkeep
+
+# =========================
+# Artefactos del modelo
+# =========================
+models/*.joblib
+models/*.pkl
+models/*.pickle
+models/*.sav
+
+# Mantener README o .gitkeep dentro de models
+!models/README.md
+!models/.gitkeep
+
+# =========================
+# Datasets locales
+# =========================
+data/
+datasets/
+*.csv
+*.xlsx
+*.xls
+*.parquet
+*.jsonl
+
+# Si algún JSON es de configuración, podés quitar esta línea
+# o guardar configs dentro de otra carpeta.
+# *.json
+
+# =========================
+# Jupyter Notebook
+# =========================
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# =========================
+# Archivos de sistema
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# VS Code / IDE
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# Builds y distribución
+# =========================
+build/
+dist/
+*.egg-info/
+
+# =========================
+# Testing / coverage
+# =========================
+.pytest_cache/
+.coverage
+htmlcov/
+
+# =========================
+# Archivos temporales
+# =========================
+*.tmp
+*.temp
+*.bak
+*.swp
