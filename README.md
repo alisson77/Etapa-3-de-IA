@@ -221,3 +221,11 @@ models/*.joblib
 ```
 
 Los artefactos `.joblib` pueden generarse desde el notebook en Google Colab o compartirse por separado cuando sea necesario reproducir la ejecución local del agente.
+
+
+## Autores
+| Nombre  | Carné | Github |
+|------|--------|--------|
+| Jorge Luis Rodriguez Cruz | 2020010773 | [@JorgeLuisRodriguezCruz](https://github.com/JorgeLuisRodriguezCruz) |
+| Alisson Carrillo Selva | 2021032663 | [@alisson77](https://github.com/alisson77) |
+| Dayana Xie Li | 2022097967 | [@dayanaxie](https://github.com/dayanaxie) |

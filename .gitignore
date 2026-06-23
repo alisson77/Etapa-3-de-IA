@@ -99,3 +99,11 @@ htmlcov/
 *.temp
 *.bak
 *.swp
+
+
+# Datos locales de validación
+data/*.csv
+
+# Reportes generados
+logs/*.json
+logs/*.csv
