@@ -47,9 +47,7 @@ models/*.sav
 # =========================
 # Datasets locales
 # =========================
-data/
 datasets/
-*.csv
 *.xlsx
 *.xls
 *.parquet
