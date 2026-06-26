@@ -101,8 +101,6 @@ htmlcov/
 *.swp
 
 
-# Datos locales de validación
-data/*.csv
 
 # Reportes generados
 logs/*.json
